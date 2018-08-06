@@ -3,7 +3,7 @@ from __future__ import absolute_import
 import asyncio
 
 from ..http.server import HttpServer
-from ..helpers import Signal, logging, to_bytes, argv
+from ..helpers import Signal, to_bytes, argv
 
 
 class AsyncHttpServer(HttpServer):

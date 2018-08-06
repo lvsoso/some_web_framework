@@ -1,3 +1,3 @@
-from .asyncserver import main, argv
+from .asyncserver import main
 
 main()
